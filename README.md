@@ -15,5 +15,7 @@ Our approach involves a systematic progression through three stages: segmentatio
 
 ### REFERENCES
 1] W. Weng and X. Zhu, “U-Net: Convolutional Networks for Biomedical Image Segmentation,” IEEE Access, vol. 9, pp. 16591–16603, May 2015, doi: 10.1109/ACCESS.2021.3053408.
+
 [2] L. O. Teixeira et al., “Impact of Lung Segmentation on the Diagnosis and Explanation of COVID-19 in Chest X-ray Images,” Sensors 2021, Vol. 21, Page 7116, vol. 21, no. 21, p. 7116, Oct. 2021, doi: 10.3390/S21217116.
+
 [3] R. R. Selvaraju, M. Cogswell, A. Das, R. Vedantam, D. Parikh, and D. Batra, “Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization,” Int J Comput Vis, vol. 128, no. 2, pp. 336–359, Oct. 2016, doi: 10.1007/s11263-019-01228-7.
