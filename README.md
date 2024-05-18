@@ -35,6 +35,7 @@ Our approach involves a systematic progression through three stages: segmentatio
 
 ### Segmentation Models Experiment Results
 
+### UNet
 | Backbone         | binary_accuracy | dice_coef | iou_score |
 |------------------|-----------------|-----------|-----------|
 | Mobilenetv2      | 0.7585          | 0.5252    | 0.7511    |
@@ -43,7 +44,9 @@ Our approach involves a systematic progression through three stages: segmentatio
 | efficientnetb2   | 0.9894          | 0.9769    | 0.9945    |
 | vgg16            | 0.9282          | 0.7714    | 0.9403    |
 
-### Classification Models Experiment Results
+### Segmentation Models Experiment Results
+
+#### LinkNet
 
 | Backbone         | binary_accuracy | dice_coef | iou_score |
 |------------------|-----------------|-----------|-----------|
@@ -52,6 +55,26 @@ Our approach involves a systematic progression through three stages: segmentatio
 | inceptionresnetv2 | 0.998         | 0.9946    | 0.9985    |
 | efficientnetb2   | 0.9905          | 0.9794    | 0.995     |
 | vgg16            | 0.989           | 0.969     | 0.9907    |
+
+#### FPN
+
+| Backbone         | binary_accuracy | dice_coef | iou_score |
+|------------------|-----------------|-----------|-----------|
+| Mobilenetv2      | 0.6587          | 0.4794    | 0.7374    |
+| **seresnext50**  | 0.998           | 0.9946    | 0.9985    |
+| inceptionresnetv2 | 0.9913         | 0.9818    | 0.9955    |
+| efficientnetb2   | 0.9920          | 0.9826    | 0.9957    |
+| vgg16            | 0.9911          | 0.972     | 0.9917    |
+
+
+### Classification Models Experiment Results
+
+| Model             | Val Loss | Val Acc. | Test Loss | Test Acc. |
+|-------------------|----------|----------|-----------|-----------|
+| **CoAtNet0**      | **0.159** | **95.8%** | **0.144** | **95.49%** |
+| Xception          | 0.182     | 95.63%   | 0.220     | 93.80%    |
+| ResNet50          | 0.182     | 93.11%   | 0.220     | 92.64%    |
+| InceptionResNet50 | 0.193     | 94.81%   | 0.197     | 93.87%    |
 
 ### Grad-CAM Visualizations
 <p align="center">
