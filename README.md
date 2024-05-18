@@ -67,6 +67,12 @@ Our approach involves a systematic progression through three stages: segmentatio
 
 ### Classification Models Experiment Results
 
+<p align="center">
+  <img src="Images/acc.jpg" alt="Image 1" style="width:45%;"/>
+  <img src="Images/loss.jpg" alt="Image 2" style="width:45%;"/>
+</p>
+
+
 | Model             | Val Loss | Val Acc. | Test Loss | Test Acc. |
 |-------------------|----------|----------|-----------|-----------|
 | **CoAtNet0**      | **0.159** | **95.8%** | **0.144** | **95.49%** |
