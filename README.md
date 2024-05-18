@@ -44,8 +44,6 @@ Our approach involves a systematic progression through three stages: segmentatio
 | efficientnetb2   | 0.9894          | 0.9769    | 0.9945    |
 | vgg16            | 0.9282          | 0.7714    | 0.9403    |
 
-### Segmentation Models Experiment Results
-
 #### LinkNet
 
 | Backbone         | binary_accuracy | dice_coef | iou_score |
