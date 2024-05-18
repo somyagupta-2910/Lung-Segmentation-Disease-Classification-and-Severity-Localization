@@ -1,4 +1,4 @@
-# A Hybrid Multi-stage Network for Lung Segmentation, Disease Classification and Severity Localization from X-ray Images
+# Project Name: A Hybrid Multi-stage Network for Lung Segmentation, Disease Classification and Severity Localization from X-ray Images
 
 ## GitHub Folder Structure
 
