@@ -17,7 +17,7 @@ Before starting, ensure you have a Kaggle account or access to Google Colab, and
 - **Step 2: Setup Your Environment**
   - **Kaggle**: Upload the dataset to your Kaggle account and use it in a new notebook.
   - **Google Colab**: Upload the dataset to Google Drive, mount the drive in Colab, and update paths accordingly:
-  - 
+  
 - **Step 3: Update the paths to the dataset in your notebook based on your environment setup.**
 - **Step 4: Run all the cells**
 
