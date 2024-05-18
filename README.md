@@ -31,6 +31,10 @@ Accurate and rapid diagnosis of respiratory diseases such as COVID-19 and viral 
 ## METHODOLOGY
 Our approach involves a systematic progression through three stages: segmentation, classification, and localization. This structured workflow allows us to precisely isolate and analyze lung regions, identify pathological conditions, and visually highlight critical areas influencing diagnostic outcomes, thereby facilitating a comprehensive examination of CXR images.
 
+<p align="center">
+  <img src="Images/Arch" alt="Architecture Image">
+</p>
+
 ## RESULTS
 
 ### Segmentation Models Experiment Results
