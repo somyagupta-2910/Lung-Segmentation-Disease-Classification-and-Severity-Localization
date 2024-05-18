@@ -31,6 +31,28 @@ Accurate and rapid diagnosis of respiratory diseases such as COVID-19 and viral 
 ## METHODOLOGY
 Our approach involves a systematic progression through three stages: segmentation, classification, and localization. This structured workflow allows us to precisely isolate and analyze lung regions, identify pathological conditions, and visually highlight critical areas influencing diagnostic outcomes, thereby facilitating a comprehensive examination of CXR images.
 
+## RESULTS
+
+### Segmentation Models Experiment Results
+
+| Backbone         | binary_accuracy | dice_coef | iou_score |
+|------------------|-----------------|-----------|-----------|
+| Mobilenetv2      | 0.7585          | 0.5252    | 0.7511    |
+| seresnext50      | 0.9886          | 0.9757    | 0.9941    |
+| **inceptionresnetv2** | 0.9906   | 0.9794    | 0.995     |
+| efficientnetb2   | 0.9894          | 0.9769    | 0.9945    |
+| vgg16            | 0.9282          | 0.7714    | 0.9403    |
+
+### Classification Models Experiment Results
+
+| Backbone         | binary_accuracy | dice_coef | iou_score |
+|------------------|-----------------|-----------|-----------|
+| Mobilenetv2      | 0.6167          | 0.4094    | 0.7271    |
+| seresnext50      | 0.9967          | 0.9925    | 0.9981    |
+| inceptionresnetv2 | 0.998         | 0.9946    | 0.9985    |
+| efficientnetb2   | 0.9905          | 0.9794    | 0.995     |
+| vgg16            | 0.989           | 0.969     | 0.9907    |
+
 <p align="center">
   <img src="Images/GradCam.jpg" alt="Superimposed Grad-CAM Image">
 </p>
