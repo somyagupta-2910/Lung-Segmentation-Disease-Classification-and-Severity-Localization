@@ -65,7 +65,7 @@ Our approach involves a systematic progression through three stages: segmentatio
 | vgg16            | 0.9911          | 0.972     | 0.9917    |
 
 
-### Classification Models Experiment Results
+### Classification Models Experiment Results and graphs:
 
 <p align="center">
   <img src="Images/acc.jpg" alt="Image 1" style="width:45%;"/>
