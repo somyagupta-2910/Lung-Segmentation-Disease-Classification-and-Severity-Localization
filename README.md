@@ -53,6 +53,7 @@ Our approach involves a systematic progression through three stages: segmentatio
 | efficientnetb2   | 0.9905          | 0.9794    | 0.995     |
 | vgg16            | 0.989           | 0.969     | 0.9907    |
 
+### Grad-CAM Visualizations
 <p align="center">
   <img src="Images/GradCam.jpg" alt="Superimposed Grad-CAM Image">
 </p>
