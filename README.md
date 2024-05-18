@@ -5,6 +5,22 @@
 - `segmentation-notebook.ipynb` - Contains the code and implementation of lung image segmentation.
 - `classification-and-localisation-notebook.ipynb` - Contains the code and implementation of lung disease classification and localalisation.
 
+## How to run the notebook
+
+### Prerequisites
+Before starting, ensure you have a Kaggle account or access to Google Colab, and Python 3 installed if running locally.
+
+- **Step 1: Download the Dataset**
+  - Download the [COVID-19 Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database).
+  - The dataset should include images and masks for COVID-19, Lung Opacity, Normal, and Viral Pneumonia.
+
+- **Step 2: Setup Your Environment**
+  - **Kaggle**: Upload the dataset to your Kaggle account and use it in a new notebook.
+  - **Google Colab**: Upload the dataset to Google Drive, mount the drive in Colab, and update paths accordingly:
+  - 
+- **Step 3: Update the paths to the dataset in your notebook based on your environment setup.**
+- **Step 4: Run all the cells**
+
 ## DATASET
 
 For our project, we are using the [COVID-19 Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database). This comprehensive database contains chest X-ray images for three distinct classes: COVID-19, normal, and viral pneumonia. Specifically, the dataset comprises 3616 images of COVID-19 positive cases, 10,192 images categorized as normal, and 1345 images identified as viral pneumonia. This extensive collection allows us to train our diagnostic models effectively, ensuring robust performance in identifying and classifying these conditions.
